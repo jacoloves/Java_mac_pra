@@ -33,17 +33,17 @@ public class Rectangle {
         return "[" + this.x + ", " + this.y + ", " + this.width + ", " + this.height + "]";
     }
 
-    void intersect(Rectangle r) {
-        int sx = Math.max(this.x, r.x);
-        int sy = Math.max(this.y, r.y);
-        int ex = Math.min(this.x + this.width, r.x + r.width);
-        int ey = Math.min(this.y + this.height, r.y + this.height);
-        int newwidth = ex - sx;
-        int newheight = ey - sy;
-        if (newwidth > 0l && newheight > 0) {
-            return new Rectangle(sx, sy, newwidth, newheight);
-        } else {
-            return null;
-        }
-    }
+//    void intersect(Rectangle r) {
+//        int sx = Math.max(this.x, r.x);
+//        int sy = Math.max(this.y, r.y);
+//        int ex = Math.min(this.x + this.width, r.x + r.width);
+//        int ey = Math.min(this.y + this.height, r.y + this.height);
+//        int newwidth = ex - sx;
+//        int newheight = ey - sy;
+//        if (newwidth > 0l && newheight > 0) {
+//            return new Rectangle(sx, sy, newwidth, newheight);
+//        } else {
+//            return null;
+//        }
+//    }
 }
