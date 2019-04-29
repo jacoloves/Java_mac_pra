@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7c0ee3b-2f88-4704-a9ab-0c53a0c81755" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BadBank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BadBankTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GoodBanTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GoodBank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JoinTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Periodic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrintHello.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrintHello3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProducerConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CountTenC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MultiThreadProgram1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RunnableMulti.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RunnableTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreadTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -29,112 +25,34 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CountTenB.java">
+        <entry file="file://$PROJECT_DIR$/src/MultiThreadProgram1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BadBank.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="69" selection-start-line="13" selection-start-column="69" selection-end-line="13" selection-end-column="69" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BadBankTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="2">
+              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
               <folding>
-                <element signature="e#98#99#0" expanded="true" />
-                <element signature="e#129#130#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GoodBank.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="69" selection-start-line="15" selection-start-column="69" selection-end-line="15" selection-end-column="69" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GoodBanTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-              <folding>
-                <element signature="e#104#105#0" expanded="true" />
-                <element signature="e#130#131#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Periodic.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/JoinTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ProducerConsumer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-605">
-              <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-              <folding>
-                <element signature="e#1260#1261#0" expanded="true" />
-                <element signature="e#1293#1294#0" expanded="true" />
-                <element signature="e#1983#1984#0" expanded="true" />
-                <element signature="e#2016#2017#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/PrintHello.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="5" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="15" selection-end-column="5" />
-              <folding>
-                <element signature="e#83#84#0" expanded="true" />
-                <element signature="e#116#117#0" expanded="true" />
+                <element signature="e#345#346#0" expanded="true" />
+                <element signature="e#372#373#0" expanded="true" />
+                <element signature="e#435#436#0" expanded="true" />
+                <element signature="e#478#479#0" expanded="true" />
+                <element signature="e#550#551#0" expanded="true" />
+                <element signature="e#572#573#0" expanded="true" />
+                <element signature="e#847#848#0" expanded="true" />
+                <element signature="e#886#887#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/PrintHello3.java">
+        <entry file="file://$PROJECT_DIR$/src/RunnableMulti.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+            <state relative-caret-position="255">
+              <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
               <folding>
-                <element signature="e#100#101#0" expanded="true" />
-                <element signature="e#133#134#0" expanded="true" />
+                <element signature="e#227#228#0" expanded="true" />
+                <element signature="e#261#262#0" expanded="true" />
+                <element signature="e#351#352#0" expanded="true" />
+                <element signature="e#374#375#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -193,6 +111,12 @@
         <option value="$PROJECT_DIR$/src/ProducerConsumer.java" />
         <option value="$PROJECT_DIR$/src/PrintHello.java" />
         <option value="$PROJECT_DIR$/src/PrintHello3.java" />
+        <option value="$PROJECT_DIR$/src/CountTenC.java" />
+        <option value="$PROJECT_DIR$/src/AsterTest2.java" />
+        <option value="$PROJECT_DIR$/src/ThreadTest.java" />
+        <option value="$PROJECT_DIR$/src/RunnableTest.java" />
+        <option value="$PROJECT_DIR$/src/MultiThreadProgram1.java" />
+        <option value="$PROJECT_DIR$/src/RunnableMulti.java" />
       </list>
     </option>
   </component>
@@ -230,11 +154,16 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556413320778" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556524129155" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -248,7 +177,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PrintHello3">
+  <component name="RunManager" selected="Application.RunnableMulti">
+    <configuration name="CountTenC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CountTenC" />
+      <module name="Java_Pra_Mac" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DisplayFile" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DisplayFile" />
       <module name="Java_Pra_Mac" />
@@ -265,36 +201,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JoinTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JoinTest" />
+    <configuration name="MultiThreadProgram1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MultiThreadProgram1" />
       <module name="Java_Pra_Mac" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Periodic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Periodic" />
+    <configuration name="RunnableMulti" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RunnableMulti" />
       <module name="Java_Pra_Mac" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintHello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PrintHello" />
+    <configuration name="RunnableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RunnableTest" />
       <module name="Java_Pra_Mac" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintHello3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PrintHello3" />
-      <module name="Java_Pra_Mac" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProducerConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ProducerConsumer" />
+    <configuration name="ThreadTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThreadTest" />
       <module name="Java_Pra_Mac" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -303,19 +232,19 @@
     <list>
       <item itemvalue="Application.DisplayFile" />
       <item itemvalue="Application.DisplayURL" />
-      <item itemvalue="Application.Periodic" />
-      <item itemvalue="Application.JoinTest" />
-      <item itemvalue="Application.ProducerConsumer" />
-      <item itemvalue="Application.PrintHello" />
-      <item itemvalue="Application.PrintHello3" />
+      <item itemvalue="Application.CountTenC" />
+      <item itemvalue="Application.ThreadTest" />
+      <item itemvalue="Application.RunnableTest" />
+      <item itemvalue="Application.MultiThreadProgram1" />
+      <item itemvalue="Application.RunnableMulti" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PrintHello3" />
-        <item itemvalue="Application.PrintHello" />
-        <item itemvalue="Application.ProducerConsumer" />
-        <item itemvalue="Application.JoinTest" />
-        <item itemvalue="Application.Periodic" />
+        <item itemvalue="Application.RunnableMulti" />
+        <item itemvalue="Application.MultiThreadProgram1" />
+        <item itemvalue="Application.RunnableTest" />
+        <item itemvalue="Application.ThreadTest" />
+        <item itemvalue="Application.CountTenC" />
       </list>
     </recent_temporary>
   </component>
@@ -337,7 +266,7 @@
     <editor active="true" />
     <layout>
       <window_info id="DB Browser" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -347,7 +276,7 @@
       <window_info anchor="bottom" id="DB Execution Console" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32968536" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32968536" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -676,6 +605,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/AsterTest2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/PrintHello.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -689,11 +625,62 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/PrintHello3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+        <state relative-caret-position="255">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
           <folding>
             <element signature="e#100#101#0" expanded="true" />
             <element signature="e#133#134#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CountTenC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ThreadTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RunnableTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MultiThreadProgram1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <folding>
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#435#436#0" expanded="true" />
+            <element signature="e#478#479#0" expanded="true" />
+            <element signature="e#550#551#0" expanded="true" />
+            <element signature="e#572#573#0" expanded="true" />
+            <element signature="e#847#848#0" expanded="true" />
+            <element signature="e#886#887#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RunnableMulti.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+          <folding>
+            <element signature="e#227#228#0" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
+            <element signature="e#351#352#0" expanded="true" />
+            <element signature="e#374#375#0" expanded="true" />
           </folding>
         </state>
       </provider>
