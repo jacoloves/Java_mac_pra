@@ -2,21 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7c0ee3b-2f88-4704-a9ab-0c53a0c81755" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/CountTenB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CountenA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DebugPrintable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GcArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GcArray2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GcTeset1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IconInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyFileReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyMediaPlayable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyNumberMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MySoundPlayable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestException5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BadBank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BadBankTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GoodBanTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GoodBank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JoinTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Periodic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrintHello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrintHello3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProducerConsumer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -35,69 +29,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/IconInfo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MyMediaPlayable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MySoundPlayable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GcTeset1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GcArray.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GcArray2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CountenA.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/CountTenB.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
@@ -107,24 +38,103 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DebugPrintable.java">
+        <entry file="file://$PROJECT_DIR$/src/BadBank.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="33" lean-forward="true" selection-start-column="33" selection-end-column="33" />
+            <state relative-caret-position="195">
+              <caret line="13" column="69" selection-start-line="13" selection-start-column="69" selection-end-line="13" selection-end-column="69" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MyNumber.java">
+        <entry file="file://$PROJECT_DIR$/src/BadBankTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="195">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
               <folding>
-                <element signature="e#88#89#0" expanded="true" />
-                <element signature="e#114#115#0" expanded="true" />
-                <element signature="e#159#160#0" expanded="true" />
-                <element signature="e#195#196#0" expanded="true" />
+                <element signature="e#98#99#0" expanded="true" />
+                <element signature="e#129#130#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/GoodBank.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="69" selection-start-line="15" selection-start-column="69" selection-end-line="15" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/GoodBanTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <element signature="e#104#105#0" expanded="true" />
+                <element signature="e#130#131#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Periodic.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/JoinTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ProducerConsumer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-605">
+              <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+              <folding>
+                <element signature="e#1260#1261#0" expanded="true" />
+                <element signature="e#1293#1294#0" expanded="true" />
+                <element signature="e#1983#1984#0" expanded="true" />
+                <element signature="e#2016#2017#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/PrintHello.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="5" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="15" selection-end-column="5" />
+              <folding>
+                <element signature="e#83#84#0" expanded="true" />
+                <element signature="e#116#117#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/PrintHello3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+              <folding>
+                <element signature="e#100#101#0" expanded="true" />
+                <element signature="e#133#134#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -174,6 +184,15 @@
         <option value="$PROJECT_DIR$/src/GcArray2.java" />
         <option value="$PROJECT_DIR$/src/CountenA.java" />
         <option value="$PROJECT_DIR$/src/CountTenB.java" />
+        <option value="$PROJECT_DIR$/src/BadBank.java" />
+        <option value="$PROJECT_DIR$/src/BadBankTest.java" />
+        <option value="$PROJECT_DIR$/src/GoodBank.java" />
+        <option value="$PROJECT_DIR$/src/GoodBanTest.java" />
+        <option value="$PROJECT_DIR$/src/Periodic.java" />
+        <option value="$PROJECT_DIR$/src/JoinTest.java" />
+        <option value="$PROJECT_DIR$/src/ProducerConsumer.java" />
+        <option value="$PROJECT_DIR$/src/PrintHello.java" />
+        <option value="$PROJECT_DIR$/src/PrintHello3.java" />
       </list>
     </option>
   </component>
@@ -211,7 +230,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556364538045" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556413320778" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -229,21 +248,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CountTenB">
-    <configuration name="CountTenB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CountTenB" />
-      <module name="Java_Pra_Mac" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CountenA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CountenA" />
-      <module name="Java_Pra_Mac" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.PrintHello3">
     <configuration name="DisplayFile" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DisplayFile" />
       <module name="Java_Pra_Mac" />
@@ -260,22 +265,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GcArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GcArray" />
+    <configuration name="JoinTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JoinTest" />
       <module name="Java_Pra_Mac" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GcArray2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GcArray2" />
+    <configuration name="Periodic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Periodic" />
       <module name="Java_Pra_Mac" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GcTeset1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GcTeset1" />
+    <configuration name="PrintHello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PrintHello" />
+      <module name="Java_Pra_Mac" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrintHello3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PrintHello3" />
+      <module name="Java_Pra_Mac" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProducerConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProducerConsumer" />
       <module name="Java_Pra_Mac" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -284,19 +303,19 @@
     <list>
       <item itemvalue="Application.DisplayFile" />
       <item itemvalue="Application.DisplayURL" />
-      <item itemvalue="Application.GcTeset1" />
-      <item itemvalue="Application.GcArray" />
-      <item itemvalue="Application.GcArray2" />
-      <item itemvalue="Application.CountenA" />
-      <item itemvalue="Application.CountTenB" />
+      <item itemvalue="Application.Periodic" />
+      <item itemvalue="Application.JoinTest" />
+      <item itemvalue="Application.ProducerConsumer" />
+      <item itemvalue="Application.PrintHello" />
+      <item itemvalue="Application.PrintHello3" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CountTenB" />
-        <item itemvalue="Application.CountenA" />
-        <item itemvalue="Application.GcArray2" />
-        <item itemvalue="Application.GcArray" />
-        <item itemvalue="Application.GcTeset1" />
+        <item itemvalue="Application.PrintHello3" />
+        <item itemvalue="Application.PrintHello" />
+        <item itemvalue="Application.ProducerConsumer" />
+        <item itemvalue="Application.JoinTest" />
+        <item itemvalue="Application.Periodic" />
       </list>
     </recent_temporary>
   </component>
@@ -318,7 +337,7 @@
     <editor active="true" />
     <layout>
       <window_info id="DB Browser" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -328,7 +347,7 @@
       <window_info anchor="bottom" id="DB Execution Console" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32968536" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32968536" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -591,6 +610,91 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BadBank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="69" selection-start-line="13" selection-start-column="69" selection-end-line="13" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BadBankTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#98#99#0" expanded="true" />
+            <element signature="e#129#130#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GoodBank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="69" selection-start-line="15" selection-start-column="69" selection-end-line="15" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GoodBanTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#104#105#0" expanded="true" />
+            <element signature="e#130#131#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Periodic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JoinTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProducerConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-605">
+          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+          <folding>
+            <element signature="e#1260#1261#0" expanded="true" />
+            <element signature="e#1293#1294#0" expanded="true" />
+            <element signature="e#1983#1984#0" expanded="true" />
+            <element signature="e#2016#2017#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PrintHello.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="e#83#84#0" expanded="true" />
+            <element signature="e#116#117#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PrintHello3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+          <folding>
+            <element signature="e#100#101#0" expanded="true" />
+            <element signature="e#133#134#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
