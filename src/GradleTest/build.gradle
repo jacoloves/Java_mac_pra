@@ -29,7 +29,7 @@ dependencies {
 }
 
 // Define the main class for the application
-mainClassName = 'GradleTest.src.main.java.gradleSrc.FileDump1'
+mainClassName = 'GradleTest.src.main.java.gradleSrc.Chapter19.HashMapTest'
 
 run {
     if (project.hasProperty('args')) {
