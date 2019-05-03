@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7c0ee3b-2f88-4704-a9ab-0c53a0c81755" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/GradleTest/src/main/java/gradleSrc/Chapter19/ArraListTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GradleTest/src/main/java/gradleSrc/Chapter19/ArrayListTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GradleTest/src/main/java/gradleSrc/Chapter19/HashMapTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GradleTest/src/main/java/gradleSrc/Chapter19/LinkedList1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GradleTest/src/main/java/gradleSrc/Chapter19/LinkedList2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GradleTest/src/main/java/gradleSrc/Chapter19/LinkedList3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GradleTest/src/main/java/gradleSrc/Prime1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GradleTest/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/src/GradleTest/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GradleTest/new.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/GradleTest/new.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GradleTest/src/main/java/gradleSrc/TestRead1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GradleTest/src/main/java/gradleSrc/TestRead1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GradleTest/test.txt&lt;input.txt" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,7 +24,7 @@
         <entry file="file://$PROJECT_DIR$/src/GradleTest/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -248,7 +238,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556756562965" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556760076106" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -834,7 +824,7 @@
     <entry file="file://$PROJECT_DIR$/src/GradleTest/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
