@@ -1,0 +1,27 @@
+.title-first {
+    margin-left: 200px;
+}
+
+.title-first h2 {
+    color: dimgrey;
+    margin-top: 50px;
+    
+}
+
+.title-first img {
+    width: 700px;
+    height: 200px;
+}
+
+.menu {
+    margin-left: 200px;
+}
+
+.menu h3 {
+    color: dimgray;
+}
+
+.menu a{
+    text-decoration: underline;
+    color: darkseagreen;
+}
