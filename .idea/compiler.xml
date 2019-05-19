@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Algori_Java" />
+        <module name="ToolSmp" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Algori_Java" target="1.8" />
+      <module name="ToolSmp" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
