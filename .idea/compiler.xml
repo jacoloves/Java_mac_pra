@@ -8,11 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Algori_Java" />
         <module name="ToolSmp" />
+        <module name="webSampleApp" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Algori_Java" target="1.8" />
-      <module name="ToolSmp" target="1.5" />
+      <module name="ToolSmp" target="1.8" />
+      <module name="webSampleApp" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

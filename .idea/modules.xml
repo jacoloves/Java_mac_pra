@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/Algori_Java/Algori_Java.iml" filepath="$PROJECT_DIR$/Algori_Java/Algori_Java.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java_Pra_Mac.iml" filepath="$PROJECT_DIR$/Java_Pra_Mac.iml" />
       <module fileurl="file://$PROJECT_DIR$/ToolSmp/ToolSmp.iml" filepath="$PROJECT_DIR$/ToolSmp/ToolSmp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webSampleApp/webSampleApp.iml" filepath="$PROJECT_DIR$/webSampleApp/webSampleApp.iml" />
     </modules>
   </component>
 </project>
