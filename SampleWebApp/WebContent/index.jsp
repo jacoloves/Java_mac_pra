@@ -14,17 +14,22 @@
   </head>
   <body>
     <h2>ログインしてね！！</h2>
-	<form>
+	<form method="post" action="LoginServlet">
   		<div class="form-group">
     		<label for="formGroupExampleInput">ログインID</label>
-    		<input type="text" class="form-control" id="formGroupExampleInput" placeholder="ログインID">
+    		<input type="text" name="userId" class="form-control" id="formGroupExampleInput" placeholder="ログインID">
   		</div>
   		<div class="form-group">
     		<label for="formGroupExampleInput2">パスワード</label>
-    		<input type="text" class="form-control" id="formGroupExampleInput2" placeholder="パスワード">
+    		<input type="password" name="pass" class="form-control" id="formGroupExampleInput2" placeholder="パスワード">
+  		</div>
+  		<div class="form-group row">
+    		<div class="col-sm-10 offset-sm-2">
+      			<button type="submit" class="btn btn-primary">Sign in</button>
+    		</div>
   		</div>
 	</form>
-	<a href="#!" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">ログイン</a>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

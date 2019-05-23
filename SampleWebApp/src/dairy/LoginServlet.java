@@ -37,8 +37,15 @@ public class LoginServlet extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
+		/*
 		RequestDispatcher dispatcher = request.getRequestDispatcher("/dairy_main/loginOK.jsp");
 		dispatcher.forward(request, response);
+		*/
+		request.setCharacterEncoding("UTF-8");
+		String userId = request.getParameter("userId");
+		String pass = request.getParameter("pass");
+
+		Login login = new Login(userId, pass);
 	}
 
 }
