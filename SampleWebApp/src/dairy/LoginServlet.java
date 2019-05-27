@@ -8,6 +8,9 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+
+import DTO.LoginDto;
 
 /**
  * Servlet implementation class LoginServlet
@@ -46,6 +49,19 @@ public class LoginServlet extends HttpServlet {
 		String pass = request.getParameter("pass");
 
 		Login login = new Login(userId, pass);
+		LoginDto ldto = new LoginDto();
+		boolean result = ldto.execute(login);
+
+		if (result ) {
+			HttpSession session = request.getSession();
+			session.setAttribute("userId", userId);
+
+			RequestDispatcher dispatcher = request.getRequestDispatcher("/dairy_main/loginOK.jsp");
+			dispatcher.forward(request, response);
+		} else {
+			response.sendRedirect("/LoginServlet");
+		}
+
 	}
 
 }
