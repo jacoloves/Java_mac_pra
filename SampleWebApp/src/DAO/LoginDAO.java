@@ -34,7 +34,7 @@ public class LoginDAO {
 
 			if (rs.next()) {
 				String userID = rs.getString("USERID");
-				String pass = rs.getString("PASS");
+				String pass = rs.getString("PASSWORD");
 
 				account = new Account(userID, pass);
 			}
