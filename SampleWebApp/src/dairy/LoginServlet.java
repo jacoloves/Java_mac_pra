@@ -32,7 +32,8 @@ public class LoginServlet extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		response.getWriter().append("Served at: ").append(request.getContextPath());
+		RequestDispatcher dispatcher = request.getRequestDispatcher("index.jsp");
+		dispatcher.forward(request, response);
 	}
 
 	/**
@@ -52,9 +53,11 @@ public class LoginServlet extends HttpServlet {
 		LoginDto ldto = new LoginDto();
 		boolean result = ldto.execute(login);
 
-		if (result ) {
+		if (result) {
 			HttpSession session = request.getSession();
 			session.setAttribute("userId", userId);
+
+			//System.out.println("test");
 
 			RequestDispatcher dispatcher = request.getRequestDispatcher("/dairy_main/loginOK.jsp");
 			dispatcher.forward(request, response);

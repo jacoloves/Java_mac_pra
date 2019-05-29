@@ -16,6 +16,7 @@ public class LoginDAO {
 		Account account = null;
 
 		try {
+
 			Class.forName("org.postgresql.Driver");
 
 			String dbName = "jdbc:postgresql://[::1]:5432/example-db";

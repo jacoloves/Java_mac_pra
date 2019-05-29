@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b7c0ee3b-2f88-4704-a9ab-0c53a0c81755" name="Default Changelist" comment="アルゴリズム2日目">
-      <change beforePath="$PROJECT_DIR$/SampleWebApp/src/DTO/LoginDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/SampleWebApp/src/DTO/LoginDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SampleWebApp/src/DTO/loginDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SampleWebApp/src/dairy/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/SampleWebApp/src/dairy/LoginServlet.java" afterDir="false" />
-    </list>
+    <list default="true" id="b7c0ee3b-2f88-4704-a9ab-0c53a0c81755" name="Default Changelist" comment="アルゴリズム2日目" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/Algori_Java/target/" />
     <ignored path="$PROJECT_DIR$/ToolSmp/target/" />
@@ -235,7 +231,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558969419531" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559138580270" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
