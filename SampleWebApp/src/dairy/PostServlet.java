@@ -44,6 +44,8 @@ public class PostServlet extends HttpServlet {
 		PostDto pd = new PostDto();
 		pd.setDairy(dairy);
 		PostDao pdao = new PostDao(pd.getDairy());
+		// 日記をテーブルに挿入する処理
+		pdao.insData();
 
 	}
 
