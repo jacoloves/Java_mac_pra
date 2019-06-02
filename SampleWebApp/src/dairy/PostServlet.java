@@ -1,6 +1,8 @@
 package dairy;
 
 import java.io.IOException;
+
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -46,6 +48,9 @@ public class PostServlet extends HttpServlet {
 		PostDao pdao = new PostDao(pd.getDairy());
 		// 日記をテーブルに挿入する処理
 		pdao.insData();
+
+		RequestDispatcher dispatcher = request.getRequestDispatcher("/dairy_main/dairyList.jsp");
+		dispatcher.forward(request, response);
 
 	}
 

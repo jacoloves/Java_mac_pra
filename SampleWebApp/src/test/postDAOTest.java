@@ -1,21 +1,19 @@
-package DAO;
+package test;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.Calendar;
+import java.util.Date;
 
-public class PostDao {
+public class postDAOTest {
 
-	protected String dairy;
+	protected String date;
 
-	public PostDao(String dairy) {
-		this.dairy = dairy;
-	}
-
-	// 書いた日記をテーブルに挿入する。
-	public void insData() {
-
+	public static void main(String[] args)  {
+		// TODO 自動生成されたメソッド・スタブ
 		Connection conn = null;
 
 		try {
@@ -30,11 +28,11 @@ public class PostDao {
 			String sql = "INSERT INTO Blogs (postblog) values(?)";
 			PreparedStatement pstmt = conn.prepareStatement(sql);
 
-			pstmt.setString(1, this.dairy);
+			pstmt.setString(1, "テストです。何を書いてもOKなのでとりあえず書いてみます。");
 
 			pstmt.executeUpdate();
 
-
+			System.out.println("テスト完了？");
 		} catch (Exception e) {
 			e.printStackTrace();
 		} finally {
@@ -47,7 +45,5 @@ public class PostDao {
 			}
 		}
 	}
-
-
 
 }
