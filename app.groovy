@@ -1,12 +1,13 @@
-@RestController
+@Grab("thymeleaf-spring5")
+
+@Controller
 class App {
 
     @RequestMapping("/")
-    def home() {
-        def header = "<html><body>"
-        def footer = "</body></html>"
-        def content = "<h1>Hello!</h1><p>this is html content.</p>"
-
-        header + content + footer
+    @ResponseBody
+    def home(ModelAndView mav) {
+        mav.setViewName("home")
+        mav.addObject("msg", "Hello! this is sample page.")
+        mav
     }
 }
