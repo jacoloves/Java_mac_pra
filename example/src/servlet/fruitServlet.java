@@ -9,27 +9,25 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import bean.Fruit;
+
 /**
- * Servlet implementation class ex62Servlet
+ * Servlet implementation class fruitServlet
  */
-@WebServlet("/ex62Servlet")
-public class ex62Servlet extends HttpServlet {
+@WebServlet("/fruitServlet")
+public class fruitServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		int num = (int)(Math.random() * 10);
- 
-		if ((num % 2) != 0) {
-			// 奇数
-			response.sendRedirect("/ex62/redirected.jsp");
-		} else {
-			//偶数
-			RequestDispatcher dispatcher = request.getRequestDispatcher("/WEB-INF/jsp/forwarded.jsp");
-			dispatcher.forward(request, response);
-		}
+
+		Fruit fruit = new Fruit("いちご", 700);
+
+		request.setAttribute("fruit", fruit);
+		RequestDispatcher dispatcher = request.getRequestDispatcher("/show.jsp");
+		dispatcher.forward(request, response);
 	}
 
 	/**
