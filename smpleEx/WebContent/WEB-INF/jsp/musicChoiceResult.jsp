@@ -3,7 +3,7 @@
     pageEncoding="UTF-8"%>
 <%@ page import="model.musicLogic" %>
 <%
-	MusicChoice mc = (MusicChoice) request.getAttribute("musicchoice");
+	MusicChoice mc = (MusicChoice) session.getAttribute("musicchoice");
 %>
 <!DOCTYPE html>
 <html>
@@ -16,7 +16,9 @@
 	<p>
 		曲名:<%= mc.getMusicNumber() %><br>
 		アーティスト:<%= mc.getMusicianName() %><br>
-		税込価格:<%= mc.getAfterPrice() %><br>
+		税込価格:<%= mc.getAfterPrice() %>円<br>
+		詳細:<br>
+		<%= mc.getMusicDetail() %><br>
 	</p>
 	<a href="/smpleEx/musicChoiceSite">戻る</a>
 </body>

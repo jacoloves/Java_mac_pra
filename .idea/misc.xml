@@ -5,7 +5,8 @@
       <list>
         <option value="$PROJECT_DIR$/Algori_Java/pom.xml" />
         <option value="$PROJECT_DIR$/ToolSmp/pom.xml" />
-        <option value="$PROJECT_DIR$/webSampleApp/pom.xml" />
+        <option value="$PROJECT_DIR$/SampleWebApp/pom.xml" />
+        <option value="$PROJECT_DIR$/tanashoApp/pom.xml" />
       </list>
     </option>
   </component>
